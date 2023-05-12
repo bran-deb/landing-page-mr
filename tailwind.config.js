@@ -11,6 +11,8 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'wave-pattern': 'url(../assets/img/wave-white.png)',
+        'wave-pattern-dots': "url('../assets/img/pattern-white-dots.png')"
       },
     },
   },
