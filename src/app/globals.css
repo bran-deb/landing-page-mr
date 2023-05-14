@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .link {
-    @apply text-white font-bold p-5 block hover:text-yellow-500
+    @apply text-white font-bold p-5 block hover:text-blue-400
 }
