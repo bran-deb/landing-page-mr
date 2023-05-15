@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Head from "next/head";
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 
 interface Props {
     title?: string;
@@ -33,7 +33,7 @@ export const AppLayout: FC<Props> = ({ title, pageDescription, imageFullUrl, chi
             </main>
 
             <footer>
-                {/* TODO: footer */}
+                <Footer />
             </footer>
         </>
     )

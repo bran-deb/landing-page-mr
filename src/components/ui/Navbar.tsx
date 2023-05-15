@@ -1,17 +1,13 @@
 'use client'
-import { FC, useState } from "react";
+import { useState } from "react";
 import logo from "@/assets/img/logo1.png"
 import Image from "next/image";
 import Link from "next/link";
 
-interface Props { }
-
-export const Navbar: FC<Props> = () => {
+export const Navbar: React.FC = (): React.ReactElement => {
     const [showMenu, setShowMenu] = useState<boolean>(true);
 
-    const handleShowMenu = () => {
-        setShowMenu(!showMenu)
-    }
+    const handleShowMenu = () => setShowMenu(!showMenu)
 
     return (
         <div className="bg-violet-950 flex justify-between lg:justify-start items-center">
