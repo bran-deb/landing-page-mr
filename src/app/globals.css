@@ -5,3 +5,12 @@
 .link {
     @apply text-white font-bold p-5 block hover:text-blue-400
 }
+.dot{
+    @apply h-3 w-3 bg-blue-600 rounded-full
+}
+.boton{
+    @apply xl:text-2xl my-4 inline-block py-2 px-16 bg-blue-800 text-white font-black border-transparent border-8 rounded-3xl hover:border-blue-50 hover:bg-white hover:text-blue-950 transition duration-200
+}
+.arrow{
+    @apply w-4 h-4 inline-block border-gray-200 border-solid border-t-[5px] border-r-[5px] transition-all transform rotate-45 
+}
